@@ -29,20 +29,20 @@ function App() {
   }
 
   const getAllUser = () => {
-    axios.get(`${URL_BASE}user/`)
+    axios.get(`${URL_BASE}users/`)
       .then((res) => setUsers(res.data))
       .catch((err) => console.log(err))
   }
 
   const deleteUser = (id) => {
     axios
-    .delete(`${URL_BASE}user/${id}/`)
+    .delete(`${URL_BASE}users/${id}/`)
     .then (() => getAllUser())
     .catch((err) => console.log(err))
   }
 
   const updateUser = (data, id) => {
-    axios.patch(`${URL_BASE}user/${id}/`, data)
+    axios.patch(`${URL_BASE}users/${id}/`, data)
     .then (() => {
       getAllUser()
       handleClickShowModal()

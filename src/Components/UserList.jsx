@@ -1,8 +1,9 @@
 import React from 'react'
+import UserCard from "./UserCard"
 
 const UserList = ({users, deleteUser, setUpdatingUser, handleClickShowModal}) => {
   return (
-    <section>
+    <section className='userlist__container'>
         {
           users.map(user => 
           <UserCard 

@@ -24,7 +24,7 @@ const ModalForm = ({
 
     const submit = (data) => {
         if (updatingUser) {
-            updateUser(data, updateUser.id)
+            updateUser(data, updatingUser.id)
         } else {
             createUser(data)
         }

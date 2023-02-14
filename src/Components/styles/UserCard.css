@@ -1,0 +1,53 @@
+body {
+    background-color: rgba(224, 199, 165, 0.719);
+}
+
+.userCard__name {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.userCard__item {
+    font-size: 20px;
+}
+
+.userCard__item span {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(102, 85, 85);
+}
+
+.userCard__footer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 5px;
+}
+
+.userCard__btn-delete {
+    font-size: 25px;
+    display: flex;
+    gap: 5px;
+    background-color: rgba(248, 242, 242, 0.712);
+    border-radius: 8px;
+    cursor: pointer;
+    color: rgba(221, 15, 15, 0.712);
+}
+
+.userCard__btn-edit {
+    font-size: 25px;
+    display: flex;
+    gap: 5px;
+    background-color: rgba(0, 255, 64, 0.651);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.userCard__btn-delete:hover{
+    background-color: rgba(231, 64, 64, 0.726);
+}
+
+.userCard__btn-edit:hover {
+    background-color: rgba(29, 240, 29, 0.89);
+}

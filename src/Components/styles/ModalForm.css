@@ -15,7 +15,7 @@
 }
 
 .modalForm__form {
-    background-color: white;
+    background-color: rgba(111, 182, 157, 0.753);
     padding: 20px;
     position: relative;
     width: 300px;
@@ -26,14 +26,16 @@
 }
 
 .modalForm__title {
-    font-size: 20px;
+    font-size: 30px;
     margin: 10 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
     
 }
 
 .modalForm__div {
     line-height: 30px;
+    font-size: 25px;
 }
 
 .modalForm__x {
