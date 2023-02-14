@@ -1,0 +1,28 @@
+.navbar__ {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    background-color: rgb(96, 134, 121);
+}
+
+.navbar__btn {
+    background-color: var(--purple);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 200ms ease;
+}
+
+.navbar__btn:active {
+    background-color: #433e8e;
+    box-shadow: 0 2px #666;
+    transform: translateY(1px);
+  }
+
+.navbar__btn:hover {
+    background-color: var(--medium-purple);
+}
+
