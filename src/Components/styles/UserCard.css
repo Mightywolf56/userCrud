@@ -32,16 +32,18 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgba(248, 242, 242, 0.712);
     border-radius: 8px;
     cursor: pointer;
-    color: rgba(221, 15, 15, 0.712);
+
+    transition: .3s;
 }
 
 .userCard__btn-edit {
     font-size: 25px;
     display: flex;
     gap: 5px;
-    background-color: rgba(0, 255, 64, 0.651);
+    background-color: rgba(248, 242, 242, 0.712);
     border-radius: 8px;
     cursor: pointer;
+    transition: .3s;
 }
 
 .userCard__btn-delete:hover{
@@ -49,5 +51,5 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .userCard__btn-edit:hover {
-    background-color: rgba(29, 240, 29, 0.89);
+    background-color: rgba(29, 240, 29, 0.688);
 }
